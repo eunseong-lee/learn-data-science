@@ -36,7 +36,7 @@ def gradient(multi_func, list_t) :
 grad = gradient(lambda x : sum(x), [1, 2])
 list(map(round, grad)) == [1, 1]
 ```
-#### 모듈 4: Gradient Descent
+#### 모듈 3: Gradient Descent
 * 위키백과의 [Gradient descent](https://en.wikipedia.org/wiki/Gradient_descent) 문서를 참고하시고 Computational examples의 Python 코드를 임의의 다변수함수에 대해서도 적용할 수 있도록 수정해보세요. 다변수함수 multi_func와 리스트 start_t를 입력받아, start_t에서 출발하여 multi_func를 최소로 만드는 벡터값을 찾아 리스트 형태로 반환하는 함수 optim을 작성하시면 됩니다. 추가로 루프문의 반복횟수와, time 모듈을 이용해서 구한 함수의 실행 시간을 같이 출력해주세요.
 ```
 from time import time
