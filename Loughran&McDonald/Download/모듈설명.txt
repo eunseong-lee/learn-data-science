@@ -1,0 +1,10 @@
+EDGAR_DownloadForms_v2.1.py
+
+Program to download EDGAR files from the SEC site by form type.
+Dependencies (i.e., modules you must download that are accessed by the program):
+
+EDGAR_Forms_v2.1.py - module that can be imported to provide convenient lists of form variants.
+
+EDGAR_Pac_v2.1.py - module containing utility subroutines to facilitate downloading the EDGAR master index files.
+
+General_Utilities_v2.1.py - module with generic utilities, in this case used for downloading files to a string or to a file.
