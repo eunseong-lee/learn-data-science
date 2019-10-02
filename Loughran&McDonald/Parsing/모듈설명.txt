@@ -1,0 +1,12 @@
+Generic_Parser.py
+
+Program to generate sentiment counts for all files contained within a specified folder.  Sentiment counts are based on the Loughran-McDonald dictionary.
+ 
+Python Dependencies (i.e., modules you must download that are accessed by the program):
+
+Load_MasterDictionary.py - module to load Loughran-McDonald master dictionary.
+
+ 
+Data Dependencies:  
+
+LoughranMcDonald_MasterDictionary_2018.csv - data file with LM Dictionary
