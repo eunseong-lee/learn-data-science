@@ -11,7 +11,7 @@ add([1, 2], [3, 4]) == [4, 6]
 ```
 * 다음으로는 스칼라 곱을 구현하는 함수 multiply를 작성합니다. multiply 함수는 int 혹은 float 값 scal과 리스트 vec을 입력으로 받아 그 결과를 리스트로 반환합니다.
 ```
-def multiply(vec, scal) :
+def multiply(scal, vec) :
     #Your code here
 
 #example
