@@ -1,0 +1,7 @@
+def multiply2(vec, scal):
+    for i in range(0, len(vec)):
+        vec[i] = scal* vec[i]
+    return vec
+
+
+print(multiply2([1,2,3,4,5], 2))
